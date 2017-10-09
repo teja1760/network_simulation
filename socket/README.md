@@ -30,7 +30,7 @@ Network Flow TCP
         send()                  recv()
            |                       |
         close()                 close()
-=
+
 Network Flow UDP
         Server                  Client
           |                       |
