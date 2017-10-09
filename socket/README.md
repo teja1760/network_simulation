@@ -1,20 +1,19 @@
-#==================================================================================================================
-##Group-20
+Group-20
 * Sai Teja Talasila                 140123040
 * A.V.N.K. Sai Charan           140123004
 * Naga Sai Bodepudi           140123011
-#===========================================================================================================
+
 Compilation:    '''
         gcc -o server server.c
         gcc -o client client.c          '''
 Execution:      '''
         ./server <Server Port number>
         ./client <Server IP Address> <Server Port number>       '''
-#==================================================================================================================
+
 Taken constraints:
         Maximum concurrent connections to server: 8
         Maximum message length: 1024
-#==================================================================================================================
+
 Network Flow TCP
         Server                  Client
           |                       |
@@ -31,7 +30,7 @@ Network Flow TCP
         send()                  recv()
            |                       |
         close()                 close()
-#==================================================================================================================
+=
 Network Flow UDP
         Server                  Client
           |                       |
@@ -46,7 +45,7 @@ Network Flow UDP
         sendto()               recvfrom()
            |                      |
         close()                 close()
-#==================================================================================================================
+
 #Assignment:
         Application #2: Client-Server programming using both TCP and UDP sockets
                 In this assignment, you require to implement two C programs, namely server and client to
@@ -84,4 +83,4 @@ Network Flow UDP
         Prototypes for Client and Server
         Client :<executable code> <Server IP Address> <Server Port number>
         Server :<executable code> <Server Port number>
-#==================================================================================================================
+
